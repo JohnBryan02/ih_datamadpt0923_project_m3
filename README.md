@@ -44,6 +44,7 @@ Modelos Testeados:
             KNeighborsRegressorOrthogonalMatchingPursuitCV
             LassoLars
             Lasso 
+
 Comparamos nuestros datos test frente a los datos entrenados y realizamos un predict.
 
 Guardamos el csv, abrimos visual estudio y probamos a subirlo a kaggle 🤞
@@ -69,8 +70,6 @@ y los diferentes pasos que se deben ir siguiendo. El orden es un factor importan
 
 
 ### :shit: **ToDo**
-Mejora del tiempo de ejecución.
-=======
 - Mejorar el guardado a CSV para evitar tener que abrir VS y modificar manualmente.
 - Reestructurar el código para evitar tener que ordenar las columnas nuevamente.
 - Matriz de correlación intentar llevar antes de realizar el drop para que no sea tan complicado usarlo.
