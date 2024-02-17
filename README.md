@@ -33,19 +33,19 @@ Una vez que tenemos los datos limpios he usado lazy predict para ver que modelos
 Modelo usado finalmente: XGBRegressor
 
 Modelos Testeados: 
-            LGBMRegressor (Mejor scoring en lazy predict pero a la hora de entrenar se quedaba detrás)
-            LinearRegression, 
-            RandomForestRegressor,
-            HistGradientBoostingRegressor   
-            GradientBoostingRegressor   
-            XGBRegressor   
-            RandomForestRegressor   
-            ExtraTreesRegressor   
-            MLPRegressor   
-            BaggingRegressor   
-            KNeighborsRegressorOrthogonalMatchingPursuitCV
-            LassoLars
-            Lasso 
+- LGBMRegressor (Mejor scoring en lazy predict pero a la hora de entrenar se quedaba detrás)
+- LinearRegression
+- RandomForestRegressor
+- HistGradientBoostingRegressor
+- GradientBoostingRegressor
+- XGBRegressor
+- RandomForestRegressor
+- ExtraTreesRegressor
+- MLPRegressor
+- BaggingRegressor
+- KNeighborsRegressorOrthogonalMatchingPursuitCV
+- LassoLars
+- Lasso 
 
 Comparamos nuestros datos test frente a los datos entrenados y realizamos un predict.
 
