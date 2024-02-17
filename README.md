@@ -50,13 +50,14 @@ Guardamos el csv, abrimos visual estudio y probamos a subirlo a kaggle 🤞
 
 
 ### :books: **Learnings**
-Features que he metido para mejorar el training
-Librerias que he probado nuevas
+Work in progress
+
 ### :x: **Error Principal**
 Quedarse dormido. Con todos estos test y diferentes modelos he podido comprender el funcionamiento basico del machine learning
 y los diferentes pasos que se deben ir siguiendo. El orden es un factor importante en este proyecto.
 
 ### :file_folder: **Estructura de carpetas**
+
 └── ih_datamadpt0923_project_m3
     ├── .ipynb_checkpoints
     ├── notebooks test
