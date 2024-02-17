@@ -1,6 +1,5 @@
 Data Project README file
-=======
-###👨‍🔧 **Nombre**
+👨‍🔧 **Nombre**
 ML Diamonds Price
 ### :baby: **Estado**
 Ironhack Data Analytics Tercer Proyecto Beta
@@ -29,7 +28,10 @@ Abrimos el documento diamonds_train.db en dbeaver y hacemos un join de todas las
 Exploramos nuestros datos y eliminamos lo que no necesitemos. En mi caso he usado la matriz de correlación con seaborn para ver que columnas no nos estaban aportando valor.
 
 Una vez que tenemos los datos limpios he usado lazy predict para ver que modelos nos dan mejores métricas.
+
+
 Modelo usado finalmente: XGBRegressor
+
 Modelos Testeados: 
             LGBMRegressor (Mejor scoring en lazy predict pero a la hora de entrenar se quedaba detrás)
             LinearRegression, 
@@ -60,12 +62,19 @@ y los diferentes pasos que se deben ir siguiendo. El orden es un factor importan
 ### :file_folder: **Estructura de carpetas**
 
 └── ih_datamadpt0923_project_m3
+
     ├── .ipynb_checkpoints
+    
     ├── notebooks test
+    
     ├──data
+    
     ├── solucion_final.ipynb  
+    
     ├── LICENSE
+    
     ├── solution.csv
+    
     └── README.md
 
 
