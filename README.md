@@ -29,8 +29,8 @@ Abrimos el documento diamonds_train.db en dbeaver y hacemos un join de todas las
 Exploramos nuestros datos y eliminamos lo que no necesitemos. En mi caso he usado la matriz de correlación con seaborn para ver que columnas no nos estaban aportando valor.
 
 Una vez que tenemos los datos limpios he usado lazy predict para ver que modelos nos dan mejores métricas.
-- Modelo usado finalmente: XGBRegressor
-- Modelos Testeados: 
+Modelo usado finalmente: XGBRegressor
+Modelos Testeados: 
             LGBMRegressor (Mejor scoring en lazy predict pero a la hora de entrenar se quedaba detrás)
             LinearRegression, 
             RandomForestRegressor,
